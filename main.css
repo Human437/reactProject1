@@ -11,28 +11,16 @@ img{
 .wrapper{
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .item{
   margin: 1%;
 }
-
-/* @media all and (min-width: 550px){
-  h4{
-      font-size: 30px;
-  }
-} */
-
-@media all and (min-width: 550px){
+@media only screen and (min-width: 550px) {
   .wrapper{
     flex-direction: row;
   }
-  /* .item1{
-    flex-grow: 2;
-  }
-  .item2{
-    flex-grow: 1;
-  }
   img{
-    width: 200%;
-  } */
-}
+    width: 350px;
+  }
+} 
